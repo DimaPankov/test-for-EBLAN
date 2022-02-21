@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">qestion1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question_gey">правда ли что, ты они?</string>
+    <string name="question_foot">правда не нога?</string>
+    <string name="question_eys">правда что глаз?</string>
+    <string name="question_list">бумаги против чёрных, потому что она белая?</string>
+    <string name="question_phone">павда ли что телефоны говорят?</string>
+    <string name="question_live">жизнь - это жизнь</string>
+    <string name="question_kosmos">космос как космополитан, тоже космос</string>
+    <string name="question_trueOrFalse">true или false?</string>
+    <string name="question_mili">мыли выли не курили</string>
+    <string name="question_biznes">бизнес хаки - в рот ебаки</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+</resources>

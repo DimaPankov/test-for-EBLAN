@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/qestionFragment"
+        android:name="ru.skillbranch.qestion1.view.qestionFrafment.qestionFragment"
+        android:label="fragment_qestion"
+        tools:layout="@layout/fragment_qestion" >
+        <action
+            android:id="@+id/action_qestionFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="ru.skillbranch.qestion1.view.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_qestionFragment"
+            app:destination="@id/qestionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="ru.skillbranch.qestion1.view.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_qestionFragment"
+            app:destination="@id/qestionFragment" />
+    </fragment>
+</navigation>
